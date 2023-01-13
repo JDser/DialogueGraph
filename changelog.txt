@@ -1,0 +1,36 @@
+26.12.2022 Changelog : 
+ - added GraphConnectionPriority to GraphBlockNode instead of ConnectonPriority 
+ - reworked GraphBlockNode referencing 
+ - fixed RemapConnections GraphBlockNode
+ - fixed group not properly removed elements when deleted
+ - copyPasted AbstractBlockProperty now will be pasted to selected blockNode
+
+ 27.12.2022 Changelog :
+  - changed how EditorWindow is being setup
+
+ 28.12.2022 Changelog :
+  - divided property's portContainer into input and outputContaner
+  - element's styles changes 
+
+ 31.12.2022 Changelog :
+  - made possible to connect to blockNode's property and properly serialize connections
+
+ 01.01.2023 Changelog :
+   - blockNode properties now properly refreshes ports
+
+02.01.2023 Changelog :
+  - removed toggleProperties
+  
+03.01.2023 Changelog :
+  - made working prototype
+  - flowEdgelistener create new blockNode on drop outside of the port
+
+04.01.2023 Changelog :
+ -
+ 
+05.01.2023 Changelog :
+ -
+ 
+06.01.2023 Changelog :
+ - 
+ 
