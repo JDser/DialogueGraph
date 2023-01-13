@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Plugins/Dialogue%20Graph/Editor/Resources/styles/nodeStyles.uss?fileID=7433441132597879392&amp;guid=9b54672ece5d86741bc3a8745ff2b931&amp;type=3#nodeStyles" />
+    <DialogueEditor.BlockNodeBorderRenderer name="node-border" picking-mode="Ignore">
+        <ui:VisualElement name="extensions" picking-mode="Ignore">
+            <ui:VisualElement name="contentViewport" picking-mode="Ignore">
+                <ui:VisualElement name="contentContainer" picking-mode="Ignore" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </DialogueEditor.BlockNodeBorderRenderer>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+    <ui:VisualElement name="input" picking-mode="Ignore" />
+    <ui:VisualElement name="output" picking-mode="Ignore" />
+</ui:UXML>

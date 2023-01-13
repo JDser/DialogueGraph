@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Dialogue%20Graph/Editor/Resources/styles/graphWindowStyles.uss?fileID=7433441132597879392&amp;guid=45819b4ded6ea6e4682bff4230a0b011&amp;type=3#graphWindowStyles" />
+    <ui:VisualElement picking-mode="Ignore" class="window__content">
+        <ui:VisualElement name="header" picking-mode="Ignore" style="justify-content: space-between; flex-shrink: 0;">
+            <ui:VisualElement name="labelContainer" picking-mode="Ignore" style="align-items: stretch; flex-direction: column;">
+                <ui:Label text="Title Label" display-tooltip-when-elided="true" name="titleLabel" picking-mode="Ignore" />
+                <ui:Label text="Sub Title Label" display-tooltip-when-elided="true" name="subTitleLabel" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:Button text="+" display-tooltip-when-elided="true" name="addButton" class="addButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="scrollViewContainer">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

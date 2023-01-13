@@ -1,0 +1,72 @@
+.graphElement {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
+}
+
+#node-border {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 320px;
+    background-color: rgba(29, 29, 29, 0.8);
+}
+
+#extensions {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#selection-border {
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    width: auto;
+    position: absolute;
+    flex-grow: 1;
+    flex-basis: 100%;
+    margin-left: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-right: 0;
+}
+
+#output {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: row;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    justify-content: center;
+    height: 43px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+    flex-direction: row;
+}

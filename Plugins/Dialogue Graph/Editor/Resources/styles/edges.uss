@@ -1,0 +1,19 @@
+.edge-very-low-width {
+	--edge-width:1;
+}
+
+.edge-low-width {
+	--edge-width:3;
+}
+
+.edge-medium-width {
+	--edge-width:5;
+}
+
+.edge-high-width {
+	--edge-width:7;
+}
+
+.edge-very-high-width {
+	--edge-width:9;
+}

@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/Plugins/Dialogue Graph/Editor/Resources/styles/blockPropertyStyles.uss" />
+    <ui:VisualElement name="node-border" picking-mode="Ignore" class="node-border">
+        <ui:VisualElement name="title" picking-mode="Ignore">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="title-label" picking-mode="Ignore" />
+            <ui:Button display-tooltip-when-elided="true" name="collapse-button">
+                <ui:VisualElement name="collapse-icon" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" name="body">
+            <ui:VisualElement name="dividerHorizontal" picking-mode="Ignore" />
+            <ui:VisualElement name="contents" picking-mode="Ignore" />
+            <ui:VisualElement name="dividerHorizontal" picking-mode="Ignore" />
+            <ui:VisualElement name="ports" picking-mode="Ignore">
+                <ui:VisualElement name="inputContainer" style="flex-grow: 1;" />
+                <ui:VisualElement name="dividerVertical" />
+                <ui:VisualElement name="outputContainer" style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" class="selection-border" />
+</ui:UXML>

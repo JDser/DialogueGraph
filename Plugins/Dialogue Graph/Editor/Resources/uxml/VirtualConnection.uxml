@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Plugins/Dialogue%20Graph/Editor/Resources/styles/virtualConnection.uss?fileID=7433441132597879392&amp;guid=c98d19f6663bb614abbe29d6caac1386&amp;type=3#virtualConnection" />
+    <ui:VisualElement name="contentContainer" style="margin-right: 10px; padding-left: 5px; flex-direction: row; align-items: center; background-color: rgba(63, 63, 63, 0.8); border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgba(25, 25, 25, 0.8); border-right-color: rgba(25, 25, 25, 0.8); border-top-color: rgba(25, 25, 25, 0.8); border-bottom-color: rgba(25, 25, 25, 0.8); flex-grow: 1; min-height: 24px;">
+        <ui:Label text="X" display-tooltip-when-elided="true" />
+        <ui:VisualElement class="slot">
+            <ui:VisualElement name="dot" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Plugins/Dialogue%20Graph/Editor/Resources/styles/graphInspectorField.uss?fileID=7433441132597879392&amp;guid=0a0b5fe7b519c92459f28e4b5e08a8cb&amp;type=3#graphInspectorField" />
+    <ui:VisualElement class="inspectorField__label-container">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="inspectorTitle" />
+    </ui:VisualElement>
+    <ui:VisualElement name="fieldContainer" />
+</ui:UXML>

@@ -1,0 +1,7 @@
+#dragIndicator {
+    left: 0;
+    right: 0;
+    height: 1px;
+    position: absolute;
+    background-color: rgb(68, 192, 255);
+}
